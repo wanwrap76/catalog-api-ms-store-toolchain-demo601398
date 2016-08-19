@@ -1,0 +1,14 @@
+---
+applications:
+- services:
+  - myMicroservicesCloudant
+  name: MicroservicesCatalogAPI
+  memory: 256m
+  instances: 1
+  host: ms-catalogAPI-${random-word}
+  domain: mybluemix.net
+  path: .
+declared-services:
+  myMicroservicesCloudant:
+    label: cloudantNoSQLDB
+    plan: Shared
