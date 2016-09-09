@@ -5,7 +5,7 @@ var appEnv = cfenv.getAppEnv();
 var serviceDiscoveryToken = "";
 var serviceDiscoveryURL = "";
 
-var serviceDiscoveryCreds = appEnv.getService("myServiceDiscovery");
+var serviceDiscoveryCreds = appEnv.getService("myMicroservicesServiceDiscovery");
 serviceDiscoveryToken = serviceDiscoveryCreds.credentials.auth_token;
 serviceDiscoveryURL = serviceDiscoveryCreds.credentials.url;
 
