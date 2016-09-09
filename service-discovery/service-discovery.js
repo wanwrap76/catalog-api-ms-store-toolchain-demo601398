@@ -21,7 +21,7 @@ exports.register = function(){
 			"service_name": "Catalog-API",
 			"endpoint": {
 				"type": "tcp",
-				"value": "myBluemixtest.ng.bluemix.net"
+				"value": JSON.parse(process.env.VCAP_APPLICATION)['application_uris'][0]
 			},
 			"ttl": 300,
 			"status": "UP"
