@@ -3,7 +3,7 @@ applications:
 - services:
   - myMicroservicesCloudant
   - myMicroservicesServiceDiscovery
-  name: MicroservicesCatalogAPI
-  memory: 256m
-  instances: 1
-  host: ms-catalogAPI-${random-word}
+name: MicroservicesCatalogAPI
+memory: 256m
+instances: 1
+host: ms-catalogAPI-${random-word}
