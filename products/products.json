@@ -79,5 +79,14 @@
 	"usaDollarPrice": 69.99,
 	"imgsrc":"https://dl.dropboxusercontent.com/s/ch9lkfm39t3h260/microwave.jpg",
 	"isNew": false
+	},
+	{
+	"name": "Sunglasses",
+	"color": "black",
+	"quantity": 750,
+	"description": "Stop the bright UV rays from shining into your eyes with these fashionable, polarized sunglasses.",
+	"usaDollarPrice": 19.99,
+	"imgsrc":"https://dl.dropboxusercontent.com/s/5ir4ozcez5sywsi/sunglasses.jpg",
+	"isNew": false
 	}
 ]
