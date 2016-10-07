@@ -3,7 +3,7 @@
 	"name": "T-Rex",
 	"color": "gray",
 	"quantity": 1,
-	"description": "A monstrous T-Rex that may or may not listen to your commands.",
+	"description": "A really sweet T-Rex that may or may not listen to your commands.",
 	"usaDollarPrice": 3000.00,
 	"imgsrc":"https://dl.dropboxusercontent.com/s/ttzhdan0rc90c3b/trex.jpg",
 	"isNew": true
